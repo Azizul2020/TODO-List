@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST - Md. Azizul Islam</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <h2 class="text-white m-auto">Todo List</h2>
+        <div class="form form-inline">
+            <input type="text" placeholder="Search here.." id="searchInput" class="form-control form form-inline">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card my-3">
+                    <div class="card-body" id="addNote">
+                        <h4 class="card-title">Add Note</h4>
+                        <button class="btn btn-danger ml-auto" id="clear">Clear All</button>
+                        <textarea class="form-control" placeholder="Type your note and press 'Enter Key'" id="taskInput"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notes">
+
+            <!-- <div class="card">
+                <div class="card-body ">
+                    <div class="card-title "><i class="far mr-2 fa-circle " onclick="changeClass(); "></i>Note ${id}</div>
+                    <div class="card-text ">${todo}</div>
+                    <button class="btn btn-primary my-2 " id="editBtn ">Edit</button>
+                    <button class="btn btn-danger my-2 " onclick=deleteItem(this.parentElement.parentElement); id="deleteBtn ">Delete</button>
+                </div>
+            </div> -->
+        </div>
+        <div id="msg"></div>
+    </div>
+    <script src="app.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+button#clear {
+    position: absolute;
+    top: 14px;
+    right: 19px;
+}
+
+#notes {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 1em;
+}
+
+i {
+    font-size: 22px;
+}
+
+.fa-check-circle {
+    color: rgb(29, 165, 29);
+}
+
+.opacity {
+    opacity: 55%;
+}
